@@ -38,3 +38,30 @@ body {
     outline: none;
     text-decoration: none;
  }
+
+
+ input,
+ textarea,
+ select {
+   box-shadow: none;
+   outline: none;
+   color: @black;
+ }
+
+ textarea {
+   resize: none;
+ }
+
+ input,
+ textarea{
+   &::placeholder{
+      color: @grey3;
+      transition: color 0.2s;
+   }
+ }
+ input:focus,
+ textarea:focus{
+   &::placeholder{
+      color:transparent;
+   }
+ }
