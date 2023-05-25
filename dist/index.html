@@ -37,6 +37,98 @@
   </header>
 
   <main class="main">
+    <div class="logo">
+      <div class="main-logo">
+        <h1 class="main-logo__title">
+          арт — пространство
+        </h1>
+        <svg width="1920" height="325" viewBox="0 0 1920 325" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M485.389 317.073V0H0V325H647.345V317.073H485.389Z" fill="#1F1E1E" />
+          <path d="M675.453 325H876.198V317.073H713.443V159.935H840.208V152.009H713.443V7.92684H876V0H675.453V325Z" fill="#1F1E1E" />
+          <path d="M941.896 325V8.39312C976.286 8.39312 1083.46 22.3816 1091.45 203.3V325H1129.44V0H1091.45V143.615C1081.86 95.5882 1063.06 60.6169 1034.27 35.4376C998.68 3.73028 958.291 0 941.896 0H903.906V325H941.896Z" fill="#1F1E1E" />
+          <path d="M1207.45 325V8.39312C1241.84 8.39312 1349.01 22.3816 1357.01 203.3V325H1395V0H1357.01V143.615C1347.41 95.5882 1328.61 60.6169 1299.82 35.4376C1264.23 3.73028 1223.84 0 1207.45 0H1169.46V325H1207.45Z" fill="#1F1E1E" />
+          <path d="M1473 0H1435.01V325H1473H1920V0H1473Z" fill="#1F1E1E" />
+        </svg>
+
+        <h1 class="main-logo__title">
+          для людей, горящих сердец и делом
+          <br> место для настоящего
+        </h1>
+        <div class="main-logo__choice">
+
+          <h2 class="main-logo__btn-label">
+            Я ХОЧУ:
+          </h2>
+          <div class="main-logo__btns">
+            <button type="submit" class="main-logo__red-btn">Провести мероприятие</button>
+            <button type="submit" class="btn">Стать арендатором</button>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+    <div class="main-events">
+      <h2 class="main-events__title">
+        Мероприятия
+      </h2>
+      <div class="main-events__listing">
+
+        <!--prettier-ignore-->
+
+        <article class="events-card main-events__card">
+          <a href="#" class="events-card__link">
+            <picture class="events-card__picture">
+              <img class="events-card__img" src="assets/images/Nirvana.jpg" alt="Nirvana" />
+            </picture>
+            <h4 class="events-card__title">
+              Собираемся и слушаем альбом Nirvana
+            </h4>
+            <p class="events-card__description">
+              Это третий альбом группы, выпущенный после смерти Курта Кобейна.
+            </p>
+            <time class="events-card__time" datetime="2022-12-07T18:00">
+              07.12.2022 | начало 18.00
+            </time>
+          </a>
+        </article>
+        <article class="events-card main-events__card">
+          <a href="#" class="events-card__link">
+            <picture class="events-card__picture">
+              <img class="events-card__img" src="assets/images/HowStuffWorks.jpg" alt="HowStuffWorks" />
+            </picture>
+            <h4 class="events-card__title">
+              Есть тема, нужно обсудить с HowStuffWorks
+            </h4>
+            <p class="events-card__description">
+              Один из самых популярных подкастов в мире. .
+            </p>
+            <time class="events-card__time" datetime="2022-14-12T18:30">
+              14.12.2022 | начало 18.30
+            </time>
+          </a>
+        </article>
+        <article class="events-card main-events__card">
+          <a href="#" class="events-card__link">
+            <picture class="events-card__picture">
+              <img class="events-card__img" src="assets/images/Sade.jpg" alt="Sade" />
+            </picture>
+            <h4 class="events-card__title">
+              Вечер | The Best of Sade
+            </h4>
+            <p class="events-card__description">
+              Музыка группы имеет эклектичный характер, сочетая...
+            </p>
+            <time class="events-card__time" datetime="2022-16-12T20:00">
+              16.12.2022 | начало 20.00
+            </time>
+          </a>
+        </article>
+
+      </div>
+    </div>
     <div class="home">
       <div class="blog-listing home__blog-listing">
         <h2 class="blog-listing__section-title section-title">
@@ -128,108 +220,104 @@
         </div>
       </div>
     </div>
-  </main>
 
-  <footer class="page-footer"></footer>
+    <div class="main-contacts">
+      <h2 class="main-contacts__title">
+        Контакты
+      </h2>
+      <div class="main-contacts__about">
+        <div class="main-contacts__adress">
+          <article class="main-contacts__article">
+            <svg class="main-contacts__icon" width="110" height="110">
+              <use xlink:href="assets/icons/symbols.svg#location"></use>
+            </svg>
+            <div class="main-contacts__article-descr">
+              <h3> Томск, Белая 8 </h3>
+              2 этаж
+              <br>
+              оф. 207-208
+            </div>
+          </article>
 
-  <div class="pp">
-    <div class="pp__block">
-      <form class="form">
-        <div class="form__radio radio">
-          <label class="radio__item">
-            <input type="radio" class="radio__input" name="Формат" value="Семинар" checked>
-            <span class="radio__mark"></span>
-            <span class="radio__name">
-              Мастер-класс/семинар
-            </span>
-          </label>
+          <article class="main-contacts__article">
+            <svg class="main-contacts__icon" width="110" height="110">
+              <use xlink:href="assets/icons/symbols.svg#home"></use>
+            </svg>
+            <div class="main-contacts__article-descr">
+              <h3> Отдел аренды </h3>
+              +7 499 350 0730
+              <br>
+              hi@tagree.ru
+            </div>
+          </article>
 
-          <label class="radio__item">
-            <input type="radio" class="radio__input" name="Формат" value="Концерт">
-            <span class="radio__mark"></span>
-            <span class="radio__name">
-              Концерт/выступление
-            </span>
-          </label>
+          <article class="main-contacts__article">
+            <svg class="main-contacts__icon" width="110" height="110">
+              <use xlink:href="assets/icons/symbols.svg#star"></use>
+            </svg>
+            <div class="main-contacts__article-descr">
+              <h3> Отдел мероприятий </h3>
+              +7 499 350 0730
+              <br>
+              hi@tagree.ru
+            </div>
+          </article>
 
-          <label class="radio__item">
-            <input type="radio" class="radio__input" name="Формат" value="Выставка">
-            <span class="radio__mark"></span>
-            <span class="radio__name">
-              Выставка/показ
-            </span>
-          </label>
 
-          <label class="radio__item">
-            <input type="radio" class="radio__input" name="Формат" value="Другое">
-            <span class="radio__mark"></span>
-            <span class="radio__name">
-              Другое
-            </span>
-          </label>
         </div>
 
-        <label class="field form__field">
-          <span class="field__title">
-            Планируемое количество посетителей:
-          </span>
-          <select name="Количество" class="field__select">
-            <option value="20">до 20 человек</option>
-            <option value="100">от 20 до 100 человек</option>
-            <option value="500">от 100 до 500 человек</option>
-            <option value="1000">более 500 человек</option>
+        <div class="map">
+          <picture class="main-contacts__picture">
+            <img class="main-contacts__img" src="assets/images/map.jpg" alt="map">
+          </picture>
+        </div>
+      </div>
+    </div>
 
-          </select>
+  </main>
 
-        </label>
+  <footer class="page-footer">
+    <div class="page-footer__up">
+      <div class="page-footer__up-left">
+        <div class="page-footer__about">
+          <a href="#" class="page-footer__nav-link">Календарь мероприятий</a>
+          <a href="#" class="page-footer__nav-link">Провести мероприятие</a>
+          <a href="#" class="page-footer__nav-link">Стать арендатором</a>
+          <a href="#" class="page-footer__nav-link">Наши проекты</a>
+          <a href="#" class="page-footer__nav-link">Контакты</a>
+        </div>
+        <svg class="page-footer__rectangle" width="4" height="198">
+          <use xlink:href="assets/icons/symbols.svg#Rectangle"></use>
+        </svg>
+      </div>
+      <div class="page-footer__up-right">
+        <a href="#" class="page-footer__nav-link">Подпишись и будь в курсе происходящего</a>
 
-
-
-        <label class="field form__field">
-          <span class="field__label">
-            Имя*
-          </span>
-          <input class="field__input" type="text" name="name" required />
-        </label>
-
-        <label class="field form__field">
-          <span class="field__label">
-            Фамилия*
-          </span>
-          <input class="field__input" type="text" name="Фамилия" required />
-        </label>
-
-        <label class="field form__field">
-          <span class="field__label">
-            Телефон*
-          </span>
-          <input class="field__input" type="tell" name="Телефон" required />
-        </label>
-
-        <label class="field form__field">
-          <span class="field__label">
-            Email*
-          </span>
-          <input class="field__input" type="email" name="Email" required />
-        </label>
-
-        <label class="field form__field">
-          <span class="field__title">
-            Есть пожелания? Напишите нам:
-          </span>
-          <textarea name="comment"></textarea>
-        </label>
-
+        <input class="field__input" type="email" name="Email" required />
         <label class="check">
           <input type="checkbox" class="check__input" name="Согласие" required />
           <span class="check__mark"></span>
-          <span class="check__label">Я соглашаюсь с пользовательским соглашением и с политикой использования персональных данных</span>
+          <span class="check__label">Согласен на обработку персональных данных</span>
 
         </label>
-        <button type="submit" class="btn">Отправить</button>
-      </form>
+      </div>
     </div>
-  </div>
+    <div class="page-footer__down">
+      <svg class="page-footer__rectangle" width="618" height="2">
+        <use xlink:href="assets/icons/symbols.svg#RectangleBlack"></use>
+      </svg>
+
+      <div class="page-footer__Mill"> © Millennials 2022 </div>
+      <a href="#" class="page-footer__nav-link">Политика конфиденциальности</a>
+      <a href="#" class="page-footer__nav-link">Cookies</a>
+      <svg class="page-footer__rectangle" width="4" height="198">
+        <use xlink:href="assets/icons/symbols.svg#internet"></use>
+      </svg>
+
+    </div>
+  </footer>
+
+
 
 </body>
 
