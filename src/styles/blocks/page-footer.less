@@ -1,33 +1,99 @@
 .page-footer {
    
-   
+   &__up {
+    display: flex;
+    flex-direction: row;
+   }
    
     &__up-left {
-
+        display: flex;
+        flex-direction: row;
+        padding-left: 293px;
+    }
+    &__up-left-line {
+       
     }
 
     &__about {
-
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 22px;
+        size: 16px;
+    }
+    &__rectange {
+        margin-left: 293px;
     }
 
-    &__rectangle {
-
+    &__sub-btn {
+        padding: 15px 40px;
+        border: 1px solid transparent;
+        background-color: @black;
+        outline: none;
+        width: 135px;
+        height: 55px;
+        color: @white;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        width: 240px;
+        text-align: center;
+        text-decoration: none;
+        transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+        overflow: hidden;
+  
+        &:hover {
+           background-color: @red_hover;
+        }
     }
-
-    &__rectangleBlack {
-        
-    }
-
     &__up-right {
-        
+        display: flex;
+        flex-direction: column;
+        padding-left: 600px;
+
+    }
+
+    &__Sub-panel {
+        display: flex;
+        flex-direction: row;
+        padding-top: 24px;
+        padding-bottom: 15px;
     }
 
     &__down {
-
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 60px;
+        font-family: 'Open Sans';
+        
+        
     }
 
     &__rectangle {
+      
+    }
 
+    &__Mill {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-left: 293px;
+        margin-bottom: 20px;
+        font-family: 'Open Sans';
+        size: 16px;
+    }
+
+    &__nav-link {
+        margin-right: 60px;
+       
+    }
+
+    &__internet {
+        margin-left: 200px;
+        margin-right: 280px;
     }
 
 
